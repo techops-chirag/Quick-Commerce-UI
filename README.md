@@ -63,24 +63,16 @@ A pixel-perfect React.js and Next.js implementation of a comprehensive e-commerc
 git clone https://github.com/techops-chirag/Quick-Commerce-UI.git
 cd Quick-Commerce-UI
 
-
-text
-
 2. **Install dependencies**
 npm install
 npm install recharts
 
-
-text
-
 3. **Run the development server**
 npm run dev
 
-
-text
-
 4. **Open your browser**
 Navigate to [http://localhost:3000](http://localhost:3000)
+
 
 ## 📁 Project Structure
 
@@ -101,8 +93,6 @@ Quick-Commerce-UI/
 ├── postcss.config.js # PostCSS configuration
 └── README.md # Project documentation
 
-
-text
 
 ## 🧩 Components
 
@@ -130,32 +120,18 @@ text
 1. **Clone the repository**
 git clone https://github.com/techops-chirag/Quick-Commerce-UI.git
 
-
-text
-
 2. **Navigate to project directory**
 cd Quick-Commerce-UI
-
-
-text
 
 3. **Install dependencies**
 npm install
 
-
-text
-
 4. **Install chart library**
 npm install recharts
-
-
-text
 
 5. **Start development server**
 npm run dev
 
-
-text
 
 ### Environment Setup
 
@@ -175,8 +151,6 @@ Start production server
 npm start
 
 
-text
-
 ### Customization
 
 #### Modifying Chart Data
@@ -193,8 +167,6 @@ const topCitiesData = [
 // Add your city data
 ];
 
-
-text
 
 #### Styling Changes
 Modify styles in `tailwind.config.js`:
@@ -242,19 +214,14 @@ We welcome contributions! Please follow these steps:
 2. **Create a feature branch**
 git checkout -b feature/amazing-feature
 
-
-text
-3. **Commit your changes**
+4. **Commit your changes**
 git commit -m 'Add amazing feature'
 
+5. **Open a Pull Request**
 
-text
-4. **Push to the branch**
+6. **Push to the branch**
 git push origin feature/amazing-feature
 
-
-text
-5. **Open a Pull Request**
 
 ### Development Guidelines
 
