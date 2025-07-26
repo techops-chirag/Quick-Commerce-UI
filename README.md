@@ -2,7 +2,7 @@
 
 A pixel-perfect React.js and Next.js implementation of a comprehensive e-commerce analytics dashboard. This project demonstrates advanced frontend development skills with real-time data visualization, responsive design, and modern UI/UX implementation.
 
-![Dashboard Preview](https://raw.githubusercontent.com/techops-chirag/Quick-Commerce-UI/main/public/dashboard-preview.png)
+![Dashboard Preview](https://insightzz.netlify.app/)
 
 ## 📋 Table of Contents
 
