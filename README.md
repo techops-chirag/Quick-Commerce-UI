@@ -77,21 +77,27 @@ Navigate to [http://localhost:3000](http://localhost:3000)
 ## 📁 Project Structure
 
 Quick-Commerce-UI/
-├── components/
-│ ├── Dashboard.js # Main dashboard component with charts and tables
-│ └── Sidebar.js # Navigation sidebar component
-├── pages/
-│ ├── _app.js # Next.js app wrapper
-│ ├── index.js # Home page component
-│ └── _document.js # Custom document (optional)
-├── styles/
-│ └── globals.css # Global styles and Tailwind imports
-├── .next/ # Next.js build output
-├── public/ # Static assets
-├── package.json # Project dependencies and scripts
-├── tailwind.config.js # Tailwind CSS configuration
-├── postcss.config.js # PostCSS configuration
-└── README.md # Project documentation
+├── components/              # Reusable UI components
+│   ├── Dashboard.js         # Main dashboard (charts, tables, metrics)
+│   └── Sidebar.js           # Vertical navigation sidebar
+│
+├── pages/                   # Next.js page-based routing
+│   ├── _app.js              # Custom App wrapper (global layout, providers)
+│   ├── index.js             # Homepage (renders dashboard layout)
+│   └── _document.js         # Custom HTML structure (optional)
+│
+├── styles/                 
+│   └── globals.css          # Global styles and Tailwind imports
+│
+├── public/                  # Static files (images, fonts, etc.)
+│
+├── .next/                   # ⚙️ Next.js build output (auto-generated)
+│
+├── package.json             # Project metadata and dependencies
+├── tailwind.config.js       # Tailwind CSS configuration
+├── postcss.config.js        # PostCSS plugin configuration
+└── README.md                # Project overview and instructions
+
 
 
 ## 🧩 Components
