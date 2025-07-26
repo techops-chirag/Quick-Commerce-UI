@@ -2,7 +2,7 @@
 
 A pixel-perfect React.js and Next.js implementation of a comprehensive e-commerce analytics dashboard. This project demonstrates advanced frontend development skills with real-time data visualization, responsive design, and modern UI/UX implementation.
 
-**[Website Link]**(https://insightzz.netlify.app/)
+**[Website Link ->](https://insightzz.netlify.app/)**
 
 ## 📋 Table of Contents
 
