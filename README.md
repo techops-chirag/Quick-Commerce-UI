@@ -74,29 +74,30 @@ npm run dev
 Navigate to [http://localhost:3000](http://localhost:3000)
 
 
+
 ## 📁 Project Structure
 
 Quick-Commerce-UI/
-├── components/              # Reusable UI components
-│   ├── Dashboard.js         # Main dashboard (charts, tables, metrics)
-│   └── Sidebar.js           # Vertical navigation sidebar
+├── components/                  # Reusable UI components
+│   ├── Dashboard.js            # Main dashboard (charts, tables, metrics)
+│   └── Sidebar.js              # Vertical navigation sidebar
 │
-├── pages/                   # Next.js page-based routing
-│   ├── _app.js              # Custom App wrapper (global layout, providers)
-│   ├── index.js             # Homepage (renders dashboard layout)
-│   └── _document.js         # Custom HTML structure (optional)
+├── pages/                       # Next.js page-based routing
+│   ├── _app.js                 # Custom App wrapper (global layout, providers)
+│   ├── index.js                # Homepage (renders dashboard layout)
+│   └── _document.js            # Custom HTML structure (optional)
 │
-├── styles/                 
-│   └── globals.css          # Global styles and Tailwind imports
+├── styles/                      # Global styles
+│   └── globals.css             # Tailwind imports and base styles
 │
-├── public/                  # Static files (images, fonts, etc.)
+├── public/                      # Static assets (images, fonts, icons, etc.)
 │
-├── .next/                   # ⚙️ Next.js build output (auto-generated)
+├── .next/                       # ⚙️ Next.js build output (auto-generated)
 │
-├── package.json             # Project metadata and dependencies
-├── tailwind.config.js       # Tailwind CSS configuration
-├── postcss.config.js        # PostCSS plugin configuration
-└── README.md                # Project overview and instructions
+├── package.json                 # Project metadata and dependencies
+├── tailwind.config.js           # Tailwind CSS configuration
+├── postcss.config.js            # PostCSS plugin configuration
+└── README.md                    # Project overview and usage instructions
 
 
 
